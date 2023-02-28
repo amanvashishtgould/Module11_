@@ -45,7 +45,9 @@ Below are the Validation Mean Squared Errors (MSEs) for the 6 models run above:
 4. Ridge Regression : 0.12
 5. Lasso regression : 0.16
 6. Lasso-based SFS Polynomial Regression: 0.19
-Based on the hold-out validation method, validation MSEs are lowest in: 1. Polynomial regression of degree 3 model, and  2. Ridge regression with polynomial degree 3 and alpha 0.001. Of these two, Ridge regression was more computationally efficient. 
+
+Based on the hold-out validation method, validation MSEs are lowest in: 1. Polynomial regression of degree 3 model, and  2. Ridge regression with polynomial degree 3 and alpha 0.001. Of these two, Ridge regression was more computationally efficient.
+
 Lastly, k-fold validation was performed for the Ridge model, and the k-fold cross validation MSE of 0.127 was similar to hold-out cross validation of 0.125. The statistical measure that represents the proportion of the variance for a dependent variable that is explained by independent variables in a regression model (R-squared) for this best model is 81.3%.
 
  
