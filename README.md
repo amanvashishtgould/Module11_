@@ -52,7 +52,7 @@ Lastly, k-fold validation was performed for the Ridge model, and the k-fold cros
 
  
 **Deployment:**
-From permutation importance of the best model, the following are the top variables (in order) that determine the price of a used car and can be informed to the client/used car dealer. These top features were consistently regarded as the most important features from other regression models explored as well.
+From permutation importance of the best model, the following are the top variables (in order) that determine the price of a used car and can be informed to the client/used car dealer. These top features were regarded as the most important features from other regression models explored as well.
 - Model
 - Year
 - Odometer
@@ -62,7 +62,7 @@ From permutation importance of the best model, the following are the top variabl
 - Transmission and Type
 
 **Recommendations:**
-Model of the car, year that the car was from, and the odometer reading have the highest impact on the used car price. It is recommended that the client focuses on showcasing cars that are more recent, have driven lower miles, and belong to models that are considered premium like Porsche 911, Chevrolet corvette, Lamborghini huracan, etc. In terms of fuel, which is the next important feature, electric and diesel cars sell higher than other types, and in terms of condition of the car, customers pay higher for new, like new, and good condition cars. Cars with 8 and 10 cylinders are priced higher, while cars with 5 cylinders the lowest. Lastly, customers pay higher for automatic or other types of transmission than manual; and pay lowest for mini-van type of cars.
+Model of the car, year that the car was from, and the odometer reading have the highest impact on the used car price. It is recommended that the client focuses on showcasing cars that are more recent, have driven lower miles, and belong to models that are considered premium/sports cars like Porsche 911, Chevrolet corvette, Lamborghini huracan, etc. In terms of fuel, which is the next important feature, electric and diesel cars sell higher than other types, and in terms of condition of the car, customers pay higher for new, like new, and good condition cars. Cars with 8 and 10 cylinders are priced higher, while cars with 5 cylinders the lowest. Lastly, customers pay higher for automatic or other types of transmission than manual; and pay lowest for mini-van type of cars.
 
 **Next Steps:**
 With additional data collection over the years, the models can be refined and can make better predictions over time. Other forms of imputation (for missing values) like iterative imputer could be tried in the future to see if it improves the model results. Additionally, other machine learning models like Extreme gradient boosting, decision tree regression, Random Forests etc. would be utilized in the future to evaluate their accuracy, and compare them against the regression models run in this exercise. 
