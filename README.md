@@ -1,6 +1,7 @@
 Practical Application Assignment 11
 What Drives the Price of a Car?
 Jupyter notebook link: https://github.com/amanvashishtgould/Module11_/blob/main/prompt_II%20_Aman1.ipynb
+
 Business Understanding:
 The objective of this task is to identify what attributes of used cars (e.g., year, condition, odometer reading, model, manufacturer, fuel type, transmission type, number of cylinders etc.) impact the price of used cars in the US. This identification would be helpful in providing recommendations to the client, i.e., a used car dealership, for what customers value most in used cars that make them more or less expensive. The used car dealership could use this information to understand customer preferences and optimize their inventory, sales, and profit.
 
